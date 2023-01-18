@@ -14,7 +14,7 @@ module.exports = {
   },
   urls: [
     "https://www.devsharpe.io/",
-    "https://www.devsharpe.io/notes/",
+    "https://www.devsharpe.io/notes",
     // Popular Posts
     "https://www.devsharpe.io/notes/signin-with-apple-with-next-auth"
   ]
