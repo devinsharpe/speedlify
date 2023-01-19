@@ -12,9 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          fetch-depth: 0
       - name: Install Packages
         run: yarn
       - name: Test Pages
@@ -24,6 +21,9 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
       - name: Git Commit
-        run: |      
-          git commit -m -a --allow-empty `chore: run page tests - date +'%Y/%m/%d'`
-          git push origin live
+        run: "git commit -m -a --allow-empty `chore: run page tests - date +'%Y/%m/%d'`"
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
