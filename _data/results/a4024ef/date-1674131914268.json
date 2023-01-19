@@ -1,0 +1,67 @@
+{
+  "url": "https://www.devsharpe.io/notes/caddyfile-local-development",
+  "requestedUrl": "https://www.devsharpe.io/notes/caddyfile-local-development",
+  "timestamp": 1674132005325,
+  "ranks": {
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 3,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 968.846,
+  "firstMeaningfulPaint": 968.846,
+  "speedIndex": 968.846,
+  "largestContentfulPaint": 1934.846,
+  "totalBlockingTime": 244,
+  "cumulativeLayoutShift": 0.0017000700632731122,
+  "timeToInteractive": 2534.846,
+  "maxPotentialFirstInputDelay": 262,
+  "timeToFirstByte": 31.061999999999998,
+  "weight": {
+    "summary": "23 requests • 168 KiB",
+    "total": 171596,
+    "image": 0,
+    "imageCount": 0,
+    "script": 108509,
+    "scriptCount": 12,
+    "document": 5383,
+    "font": 36400,
+    "fontCount": 1,
+    "stylesheet": 8814,
+    "stylesheetCount": 1,
+    "thirdParty": 37325,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 4,
+    "-weight.document": 2,
+    "+weight.document": 3,
+    "-weight.script": 2,
+    "+weight.script": 3,
+    "-weight.image": 1,
+    "+weight.image": 1,
+    "-weight.font": 1,
+    "+weight.font": 2,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 3
+  },
+  "axe": {
+    "passes": 162,
+    "violations": 5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.devsharpe.io/notes/signin-with-apple-with-next-auth",
+  "requestedUrl": "https://www.devsharpe.io/notes/signin-with-apple-with-next-auth",
+  "timestamp": 1674131992670,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 990.03,
+  "firstMeaningfulPaint": 990.03,
+  "speedIndex": 990.03,
+  "largestContentfulPaint": 1997.052,
+  "totalBlockingTime": 149.3315,
+  "cumulativeLayoutShift": 0.008618773142496745,
+  "timeToInteractive": 2547.7315,
+  "maxPotentialFirstInputDelay": 261,
+  "timeToFirstByte": 54.078,
+  "weight": {
+    "summary": "23 requests • 168 KiB",
+    "total": 171747,
+    "image": 0,
+    "imageCount": 0,
+    "script": 108537,
+    "scriptCount": 12,
+    "document": 5544,
+    "font": 36400,
+    "fontCount": 1,
+    "stylesheet": 8786,
+    "stylesheetCount": 1,
+    "thirdParty": 37357,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 2,
+    "+weight.total": 3,
+    "-weight.document": 3,
+    "+weight.document": 2,
+    "-weight.script": 3,
+    "+weight.script": 2,
+    "-weight.image": 1,
+    "+weight.image": 1,
+    "-weight.font": 1,
+    "+weight.font": 2,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 4
+  },
+  "axe": {
+    "passes": 162,
+    "violations": 5
+  }
+}
