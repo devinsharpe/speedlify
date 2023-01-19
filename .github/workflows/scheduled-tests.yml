@@ -5,15 +5,14 @@ on:
   schedule:
     - cron: '10 13 * * *'
 
-    
-    
 jobs:
   build:
-    name: Install Pacakages
+    name: Install and Test Sites
     runs-on: ubuntu-latest
     steps:
-      - name: Yarn Install
-        # Hit the webhook endpoint to rebuild  from the "main" branch
+      - name: Checkout
+        uses: actions/checkout@v2      
+      - name: Install Packages
         run: yarn
       - name: Test Pages
         run: yarn test-pages
