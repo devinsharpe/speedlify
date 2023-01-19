@@ -9,9 +9,9 @@ on:
     
 jobs:
   build:
-    name: Trigger Site Rebuild
+    name: Install Pacakages
     runs-on: ubuntu-latest
     steps:
-      - name: Echo
+      - name: Yarn Install
         # Hit the webhook endpoint to rebuild  from the "main" branch
-        run: echo "hello world"
+        run: yarn
