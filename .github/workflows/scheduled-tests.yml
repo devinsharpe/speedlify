@@ -3,7 +3,7 @@ name: Run Speedlify Tests
 on:
   schedule:
     # Runs "at minute 55 past every hour" (see https://crontab.guru)
-    - cron: '5 16 * * *'
+    - cron: '10 13 * * *'
     
 jobs:
   build:
