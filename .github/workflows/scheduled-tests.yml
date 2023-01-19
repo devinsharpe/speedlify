@@ -1,9 +1,8 @@
 name: Run Speedlify Tests
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '10 13 * * *'
+    - cron: '15 14 * * *'
 
 jobs:
   build:
