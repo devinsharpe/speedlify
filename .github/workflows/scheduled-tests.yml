@@ -21,7 +21,8 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
       - name: Git Commit
-        run: "git commit -a --allow-empty -m `chore: run page tests - date +'%Y/%m/%d'`"
+        run: |
+          git commit -a --allow-empty -m "chore: update test results - $(date +'%Y/%m/%d')"
       - name: Push Changes
         uses: ad-m/github-push-action@master
         with:
