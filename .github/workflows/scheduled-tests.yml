@@ -23,7 +23,7 @@ jobs:
         run: |
           git commit -a --allow-empty -m "chore: update test results - $(date +'%Y/%m/%d')"
       - name: Push Changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
