@@ -1,0 +1,67 @@
+{
+  "url": "https://unique-air-solutions.vercel.app/services",
+  "requestedUrl": "https://unique-air-solutions.vercel.app/services",
+  "timestamp": 1688847201463,
+  "ranks": {
+    "hundos": 5,
+    "performance": 3,
+    "accessibility": 4,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.95,
+    "accessibility": 0.92,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 371
+  },
+  "firstContentfulPaint": 1025.9940000000001,
+  "firstMeaningfulPaint": 1025.9940000000001,
+  "speedIndex": 1799.602413249445,
+  "largestContentfulPaint": 2677.994,
+  "totalBlockingTime": 126.50000000000023,
+  "cumulativeLayoutShift": 0.03267555236816406,
+  "timeToInteractive": 3237.4940000000006,
+  "maxPotentialFirstInputDelay": 229.00000000000045,
+  "timeToFirstByte": 53.22300000000001,
+  "weight": {
+    "summary": "20 requests • 515 KiB",
+    "total": 527291,
+    "image": 344480,
+    "imageCount": 4,
+    "script": 121865,
+    "scriptCount": 12,
+    "document": 10775,
+    "font": 37992,
+    "fontCount": 1,
+    "stylesheet": 6655,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 3,
+    "+weight.total": 5,
+    "-weight.document": 7,
+    "+weight.document": 1,
+    "-weight.script": 1,
+    "+weight.script": 6,
+    "-weight.image": 3,
+    "+weight.image": 5,
+    "-weight.font": 3,
+    "+weight.font": 3,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 2
+  },
+  "axe": {
+    "passes": 499,
+    "violations": 8
+  }
+}
