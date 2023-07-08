@@ -2,7 +2,7 @@ name: Run Speedlify Tests
 
 on:
   schedule:
-    - cron: '15 14 * * *'
+    - cron: "15 14 * * *"
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
           git config user.email "<>"
       - name: Git Commit
         run: |
-          git commit -a --allow-empty -m "chore: update test results - $(date +'%Y/%m/%d')"
+          git commit -A --allow-empty -m "chore: update test results - $(date +'%Y/%m/%d')"
       - name: Push Changes
         uses: ad-m/github-push-action@master
         with:
