@@ -1,6 +1,6 @@
 module.exports = {
-    name: "birb.social", // optional, falls back to object key
-    description: "Birb - Simple Social",
+    name: "unique-air.com", // optional, falls back to object key
+    description: "Unique Air Solutions",
     // skip if localhost
     // skip if this is a new fork of the speedlify (not Zach’s)
     // skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
@@ -13,8 +13,12 @@ module.exports = {
         freshChrome: "site"
     },
     urls: [
-        "https://www.birb.social/",
-        "https://www.birb.social/terms",
-        "https://www.birb.social/privacy",
+        "https://unique-air-solutions.vercel.app/",
+        "https://unique-air-solutions.vercel.app/cooling",
+        "https://unique-air-solutions.vercel.app/heating",
+        "https://unique-air-solutions.vercel.app/commercial",
+        "https://unique-air-solutions.vercel.app/contact",
+        "https://unique-air-solutions.vercel.app/services",
+        "https://unique-air-solutions.vercel.app/about"
     ]
 };
