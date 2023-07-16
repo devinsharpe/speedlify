@@ -16,7 +16,7 @@ module.exports = {
     "https://www.devsharpe.io/",
     "https://www.devsharpe.io/notes",
     // Popular Posts
-    "https://www.devsharpe.io/notes/signin-with-apple-with-next-auth",
-    "https://www.devsharpe.io/notes/caddyfile-local-development"
+    // "https://www.devsharpe.io/notes/signin-with-apple-with-next-auth",
+    // "https://www.devsharpe.io/notes/caddyfile-local-development"
   ]
 };
