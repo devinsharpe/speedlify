@@ -1,0 +1,67 @@
+{
+  "url": "https://www.birb.social/terms",
+  "requestedUrl": "https://www.birb.social/terms",
+  "timestamp": 1689776429958,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.83,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 855.648,
+  "firstMeaningfulPaint": 1156.1480000000001,
+  "speedIndex": 1128.4753244776844,
+  "largestContentfulPaint": 3052.648,
+  "totalBlockingTime": 317,
+  "cumulativeLayoutShift": 0.1578125,
+  "timeToInteractive": 3202.648,
+  "maxPotentialFirstInputDelay": 278,
+  "timeToFirstByte": 10.139,
+  "weight": {
+    "summary": "17 requests • 322 KiB",
+    "total": 329594,
+    "image": 1588,
+    "imageCount": 1,
+    "script": 269312,
+    "scriptCount": 9,
+    "document": 1853,
+    "font": 37992,
+    "fontCount": 1,
+    "stylesheet": 11234,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 2,
+    "+weight.total": 2,
+    "-weight.document": 1,
+    "+weight.document": 3,
+    "-weight.script": 1,
+    "+weight.script": 3,
+    "-weight.image": 1,
+    "+weight.image": 2,
+    "-weight.font": 2,
+    "+weight.font": 2,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1
+  },
+  "axe": {
+    "passes": 152,
+    "violations": 1
+  }
+}
